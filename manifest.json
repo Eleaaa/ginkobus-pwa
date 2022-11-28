@@ -24,6 +24,5 @@
     "display": "standalone",
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
-    "id": "index.html",
-    "scope": "/"
+    "id": "index.html"
   }
