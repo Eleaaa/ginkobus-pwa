@@ -1,6 +1,6 @@
 {
-    "short_name": "GinkoBus",
     "name": "Ginko Bus",
+    "short_name": "GinkoBus",
     "description": "Progressive Web App better than ginko mobilités",
     "icons": [
         {
