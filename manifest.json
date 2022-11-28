@@ -24,6 +24,6 @@
     "display": "standalone",
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
-    "id": "/?source=pwa",
+    "id": "index.html",
     "scope": "/"
   }
