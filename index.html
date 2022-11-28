@@ -27,7 +27,11 @@
     <link rel="stylesheet" href="style.css">
     
     <!-- application scripts -->
-    <script src="app.js" defer></script>
+    <script src="app.js" defer>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
 
 </head>
 
