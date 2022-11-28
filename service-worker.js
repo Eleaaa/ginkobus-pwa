@@ -11,7 +11,8 @@ const appFiles = [
   'icons/icon-168.png',
   'icons/icon-192.png',
   'icons/icon-256.png',
-  'icons/icon-512.png'
+  'icons/icon-512.png',
+  'icons/maskable_icon.png'
 ];
 
 self.addEventListener('install', (e) => {
