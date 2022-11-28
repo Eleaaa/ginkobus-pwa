@@ -24,7 +24,7 @@ self.addEventListener('install', (e) => {
     })());
   });
 
-  /*self.addEventListener('fetch', (e) => {
+  self.addEventListener('fetch', (e) => {
     e.respondWith((async () => {
       const r = await caches.match(e.request);
       console.log(`[Service Worker] Fetching resource: ${e.request.url}`);
@@ -35,9 +35,9 @@ self.addEventListener('install', (e) => {
       cache.put(e.request, response.clone());
       return response;
     })());
-  });*/
+  });
 
-  self.addEventListener('fetch', function (event) {
+ /* self.addEventListener('fetch', function (event) {
     event.respondWith(
       caches.open('ginkobus-v1').then(function (cache) {
         return cache.match(event.request).then(function (response) {
@@ -49,4 +49,4 @@ self.addEventListener('install', (e) => {
         });
       }),
     );
-  });
+  });*/
